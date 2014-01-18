@@ -14,7 +14,7 @@ g.setColor(Color.white);
 g.fillRect(0,0,d.width,d.height);
 g.setColor(Color.black);
 g.setFont(f);
-drawCenteredString("Ильбульдин", d.width, d.height, g);
+drawCenteredString("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", d.width, d.height, g);
 g.drawRect(0,0,d.width-1,d.height-1);
 }
 
@@ -24,4 +24,4 @@ int x = (w - fm.stringWidth(s)) / 2;
 int y = (fm.getAscent() + (h - (fm.getAscent() + fm.getDescent()))/2);
 g.drawString(s, x, y);
 } }
- 
+  
